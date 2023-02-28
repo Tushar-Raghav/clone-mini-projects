@@ -1,0 +1,59 @@
+body{
+    height: 95vh;
+    background-image: url(https://cdn.suwalls.com/wallpapers/nature/beautiful-summer-day-39604-1920x1200.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    /*vw vh rem em px % == 80% child==50%*/
+    box-shadow: 4px 3px 44px white;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 60vw;
+    height: 15vw;
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+}
+#hh{
+    color:rgb(245, 164, 59)
+}
+#mm{
+    color:rgb(242, 59, 245)
+}
+#ss{
+    color:rgb(103, 248, 147)
+}
+#preset{
+    font-size: 5vw;
+    color: rgba(255, 116, 128, 0.8);
+    margin-left:2vw;
+    border-radius: 10%;
+}
+#hh:hover{
+    font-size: 11vw;
+    color: brown;
+    background: transparent;
+}
+#mm:hover{
+    font-size: 11vw;
+    color: brown;
+    background: transparent;
+}
+#ss:hover{
+    font-size: 11vw;
+    color: brown;
+    background: transparent;
+}
+#preset:hover{
+    font-size: 6vw;
+    color: brown;
+    background: transparent;
+}
+span{
+    color: rgb(189, 127, 247);
+}

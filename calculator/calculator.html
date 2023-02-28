@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div id="box">
+    <table>
+        <tr><td colspan="5"  id="display"></td></tr>
+        <tr>
+            <td id="fun" onclick="backSpace()">clear</td>
+            <td id="fun" onclick="allClear()">AC</td>
+            <td id="symbol" onclick="oprator(`+`)">+</td>
+            <td id="symbol" onclick="oprator(`-`)">-</td>
+        </tr>
+        <tr>
+            <td id="num" onclick="writingNum(1)">1</td>
+            <td id="num" onclick="writingNum(2)">2</td>
+            <td id="num" onclick="writingNum(3)">3</td>
+            <td id="symbol" onclick="oprator(`&#247`)">&#247</td>
+        </tr>
+        <tr>
+            <td id="num" onclick="writingNum(4)">4</td>
+            <td id="num" onclick="writingNum(5)">5</td>
+            <td id="num" onclick="writingNum(6)">6</td>
+            <td id="symbol" onclick="oprator(`&#215`)">&#215</td>            </td>
+        </tr>
+        <tr>
+            <td id="num" onclick="writingNum(7)">7</td>
+            <td id="num" onclick="writingNum(8)">8</td>
+            <td id="num" onclick="writingNum(9)">9</td>
+            <td id="fun" rowspan="2" onclick="result()">ENTER<br>&#9166</pre></td>
+        </tr>
+        <tr>
+            <td id="symbol" onclick="writingNum(`.`)">.</td>
+            <td id="num" onclick="writingNum(0)">0</td>
+            <td id="symbol" onclick="oprator(`%`)">%</td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="calculator.js"></script>
+</html>
